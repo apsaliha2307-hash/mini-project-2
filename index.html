@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Laugh Lounge | Joke App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">HAHA<span>✦</span></div>
+    <div class="nav-title">THE LAUGH LOUNGE</div>
+    <div class="nav-tag">GOOD VIBES ONLY ☺</div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="tag">✦ YOUR DAILY DOSE OF HAPPINESS</div>
+        <h1>Life is better<br>with a little <span>laughter.</span></h1>
+        <p>Need a smile? You're in the right place.<br>Let's turn your boring moments into funny ones.</p>
+    </section>
+
+    <section class="joke-container">
+
+        <div class="joke-header">
+            <span>✧ THE JOKE CORNER</span>
+            <span class="live"><i></i> LIVE FUN</span>
+        </div>
+
+        <div class="emoji" id="emoji">😂</div>
+
+        <div class="category-label" id="category">RANDOM JOKE</div>
+
+        <div id="jokeContent" class="joke-content">
+            Ready for a laugh? Your next favourite joke is just one click away!
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Finding something funny...</p>
+        </div>
+
+        <div class="joke-actions">
+            <button class="new-joke" id="newJoke">
+                TELL ME A JOKE <span>↗</span>
+            </button>
+
+            <div class="secondary-actions">
+                <button id="copyBtn">📋 Copy</button>
+                <button id="saveBtn">♡ Save</button>
+            </div>
+        </div>
+
+        <div class="feedback" id="feedback"></div>
+
+    </section>
+
+    <section class="category-section">
+        <h2>Choose your <span>mood.</span></h2>
+        <p>Different categories. Unlimited laughs.</p>
+
+        <div class="categories">
+            <button class="category active" data-category="Any">🎲 Random</button>
+            <button class="category" data-category="Programming">💻 Programming</button>
+            <button class="category" data-category="Pun">😜 Puns</button>
+            <button class="category" data-category="Misc">🎭 Funny</button>
+            <button class="category" data-category="Christmas">🎄 Christmas</button>
+        </div>
+    </section>
+
+    <section class="favorites-section">
+        <div class="favorite-heading">
+            <h2>My <span>favourites</span> ♡</h2>
+            <span id="favoriteCount">0 SAVED</span>
+        </div>
+        <div id="favoritesList" class="favorites-list">
+            <p class="empty">Your favourite jokes will appear here. ♡</p>
+        </div>
+    </section>
+
+    <section class="quote">
+        <div>❝</div>
+        <p>A day without laughter is a day wasted.</p>
+        <span>— MAKE EVERY DAY FUN</span>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-logo">HAHA✦</div>
+    MADE WITH ♥ AND A LITTLE HUMOUR
+    <p>© 2026 THE LAUGH LOUNGE</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
